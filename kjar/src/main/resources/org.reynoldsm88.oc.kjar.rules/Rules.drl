@@ -1,0 +1,12 @@
+package org.reynoldsm88.oc.kjar.rules;
+
+import org.reynoldsm88.oc.kjar.model.Input;
+import org.reynoldsm88.oc.kjar.model.Output;
+
+
+rule "Your First Rule"
+    when
+        accumulate( Input(); $count : count() )
+    then
+        insert( new Output( $count ) );
+end
