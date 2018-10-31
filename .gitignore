@@ -45,4 +45,3 @@ RemoteSystemsTempFiles/
 
 # Maven Stuff
 target/
-dependency-reduced-pom.xml
